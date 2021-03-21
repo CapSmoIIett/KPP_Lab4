@@ -2,9 +2,9 @@ package org.example;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.layout.Pane;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -21,7 +21,7 @@ public class App extends Application {
         stage.setTitle("Сar");
         stage.setResizable(false);
 
-        Pane root = FXMLLoader.load(getClass().getResource("App.fxml"));;
+        Pane root = FXMLLoader.load(getClass().getResource("App.fxml"));
 
         scene = new Scene(root);
         stage.setScene(scene);

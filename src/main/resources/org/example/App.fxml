@@ -6,8 +6,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 
-
-<AnchorPane fx:id="labelWheel4" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.App">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f80ff00" height="300.0" layoutX="125.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="150.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutX="95.0" layoutY="179.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
